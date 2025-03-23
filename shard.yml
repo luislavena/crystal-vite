@@ -1,0 +1,6 @@
+name: vite
+version: 0.1.0
+license: Apache-2.0
+crystal: ">= 1.15.0, < 2.0.0"
+authors:
+  - Luis Lavena <luislavena@gmail.com>

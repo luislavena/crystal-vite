@@ -1,0 +1,9 @@
+{
+  "name": "vite-plugin-crystal",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/crystal.js",
+  "dependencies": {
+    "glob": "^11.0.1"
+  }
+}

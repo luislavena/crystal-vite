@@ -1,0 +1,21 @@
+{
+  "src/frontend/main.js": {
+    "file": "assets/main-123abc.js",
+    "name": "main",
+    "src": "src/frontend/main.js",
+    "isEntry": true,
+    "css": ["assets/main-456def.css"]
+  },
+  "src/frontend/secondary.js": {
+    "file": "assets/secondary-456def.js",
+    "name": "main",
+    "src": "src/frontend/secondary.js",
+    "isEntry": true
+  },
+  "src/frontend/style.css": {
+    "file": "assets/style-789ghi.css",
+    "name": "style",
+    "src": "src/frontend/style.css",
+    "isEntry": true
+  }
+}

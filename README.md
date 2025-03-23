@@ -176,10 +176,42 @@ $ crystal run app
 
 3. Visit your Crystal application URL (e.g., http://localhost:8080)
 
-The Crystal-Vite shard will automatically:
+The Vite handler will:
+
 - Detect if the Vite development server is running
 - Proxy asset requests to the Vite server
 - Enable Hot Module Replacement through the proxied connection
+
+### Build production assets
+
+1. Use Vite to build your assets
+
+```console
+$ npm run build
+
+# or
+$ bun run build
+```
+
+This will generate the following structure inside `public/build`:
+
+```
+public/
+  build/
+    assets/
+      app-[HASH].js     # Bundled entrypoint (JS)
+      app-[HASH].css    # Bundled entrypoint (CSS)
+    manifest.json
+```
+
+`Vite.new` will detect the presence of `manifest.json` and prefer it over the
+development server.
+
+2. Compile your application without Vite dev server
+
+When building for production, make sure you're not including `Vite#dev_handler`
+in your HTTP middleware stack, as it could allow anyone visiting your
+application to run requests against your server.
 
 ## Contribution policy
 

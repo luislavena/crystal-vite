@@ -57,7 +57,7 @@ export default function crystal(options = {}) {
     return autoEntrypoints;
   };
   return {
-    name: "vite:crystal",
+    name: "crystal",
     config() {
       return {
         base: "/vite-dev/",
@@ -79,6 +79,10 @@ export default function crystal(options = {}) {
           strictPort: true,
           hmr: {
             clientPort: appPort,
+          },
+          watch: {
+            // Exclude shard symlinks
+            ignored: ["**/lib/**"],
           },
         },
       };

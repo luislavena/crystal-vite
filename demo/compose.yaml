@@ -1,0 +1,20 @@
+---
+name: crystal-vite-demo
+
+services:
+  app:
+    build:
+      dockerfile: docker/dev.dockerfile
+    command: overmind start -f Procfile.dev
+    working_dir: /workspace/${COMPOSE_PROJECT_NAME}
+    environment:
+      - OVERMIND_SOCKET=/tmp/overmind.sock
+
+    # Set these env variables using `export FIXUID=$(id -u) FIXGID=$(id -g)`
+    user: ${FIXUID:-1000}:${FIXGID:-1000}
+
+    ports:
+      - 8080:8080
+
+    volumes:
+      - .:/workspace/${COMPOSE_PROJECT_NAME}:cached

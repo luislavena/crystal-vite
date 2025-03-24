@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Crystal</title>
+    <%= vite.style_tag "@/styles/app.css" %>
+  </head>
+  <body>
+    <div id="app">
+        <div>
+          <a href="https://vite.dev" target="_blank">
+            <img src="/vite.svg" class="logo" alt="Vite logo" width="96" height="96" />
+          </a>
+          <a href="https://crystal-lang.org" target="_blank">
+            <img src="/crystal.svg" class="logo crystal" alt="Crystal logo" width="96" height="96" />
+          </a>
+          <h1>Hello Vite!</h1>
+          <div class="card">
+            <button id="counter" type="button"></button>
+          </div>
+          <p class="read-the-docs">
+            Click on the logos to learn more
+          </p>
+        </div>
+    </div>
+    <%= vite.client_tag %>
+    <%= vite.script_tag "@/entrypoints/app.js" %>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+/lib/
+/bin/
+/.shards/
+*.dwarf
+
+# NodeJS and build artifacts
+node_modules/
+public/build/
+
+# ignore lockfiles
+bun.lock
+package-lock.json
+shard.lock

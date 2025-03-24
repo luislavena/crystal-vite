@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^6.2.2",
+    "vite-plugin-crystal": "file:lib/vite/vite-plugin-crystal"
+  }
+}

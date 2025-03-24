@@ -1,0 +1,2 @@
+app: watchexec -w src -f '**/*.cr' -f '**/*.ecr' --restart -- shards run app
+vite: bun run dev

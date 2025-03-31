@@ -1,0 +1,5 @@
+kind: fixed
+body: Reduce Vite's watcher exclusion to detect 'lib' changes
+time: 2025-04-01T00:23:20.760299+02:00
+custom:
+    Issue: ""

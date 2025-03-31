@@ -82,7 +82,7 @@ export default function crystal(options = {}) {
           },
           watch: {
             // Exclude shard symlinks
-            ignored: ["**/lib/**"],
+            ignored: ["./lib/**"],
           },
         },
       };

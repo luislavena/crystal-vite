@@ -1,0 +1,5 @@
+kind: fixed
+body: Fix Vite watch catching deep nested symlinks from shards
+time: 2025-04-12T17:56:46.374667+02:00
+custom:
+    Issue: ""

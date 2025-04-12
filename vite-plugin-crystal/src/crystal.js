@@ -81,8 +81,8 @@ export default function crystal(options = {}) {
             clientPort: appPort,
           },
           watch: {
-            // Exclude shard symlinks
-            ignored: ["./lib/**"],
+            // Exclude shards and nested symlinks
+            ignored: [`${projectRoot}/lib/**`],
           },
         },
       };

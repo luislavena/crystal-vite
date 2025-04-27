@@ -1,5 +1,0 @@
-kind: fixed
-body: Asset URLs correctly point to /build/ instead of /vite-dev/
-time: 2025-04-27T12:45:03.288482+02:00
-custom:
-    Issue: "7"

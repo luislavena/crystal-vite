@@ -23,9 +23,6 @@ class Vite
     property name : String?
     property src : String
 
-    @[JSON::Field(key: "isEntry")]
-    property? entry : Bool
-
     property css : Array(String)?
   end
 

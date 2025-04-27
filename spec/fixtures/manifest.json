@@ -1,4 +1,12 @@
 {
+  "node_modules/inter-ui/variable/InterVariable-Italic.woff2": {
+    "file": "assets/InterVariable-Italic-FCBEiFp6.woff2",
+    "src": "node_modules/inter-ui/variable/InterVariable-Italic.woff2"
+  },
+  "node_modules/inter-ui/variable/InterVariable.woff2": {
+    "file": "assets/InterVariable-DiVDrmQJ.woff2",
+    "src": "node_modules/inter-ui/variable/InterVariable.woff2"
+  },
   "src/frontend/main.js": {
     "file": "assets/main-123abc.js",
     "name": "main",

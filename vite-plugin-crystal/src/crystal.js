@@ -58,9 +58,12 @@ export default function crystal(options = {}) {
   };
   return {
     name: "crystal",
-    config() {
+    config(config, { command }) {
+      // Check if we're in dev (serve) or build mode
+      const isDev = command === "serve";
+
       return {
-        base: "/vite-dev/",
+        base: isDev ? "/vite-dev/" : "/build/",
         publicDir: false,
         resolve: {
           alias: {

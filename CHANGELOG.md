@@ -14,7 +14,7 @@ upgrading.
 ### Fixed
 
 - Properly load manifest that contains Webfonts
-- Asset URLs correctly point to /build/ instead of /vite-dev/ ([#7](https://github.com/luislavena/drift/issues/7))
+- Asset URLs correctly point to /build/ instead of /vite-dev/ ([#7](https://github.com/luislavena/crystal-vite/issues/7))
 
 ## v0.1.2 - 2025-04-12
 

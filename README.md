@@ -219,7 +219,7 @@ Inspired by [Litestream](https://github.com/benbjohnson/litestream) and
 [SQLite](https://sqlite.org/copyright.html#notopencontrib), this project is
 open to code contributions for bug fixes only. Features carry a long-term
 burden so they will not be accepted at this time. Please
-[submit an issue](https://github.com/luislavena/drift/issues/new) if you have
+[submit an issue](https://github.com/luislavena/crystal-vite/issues/new) if you have
 a feature you would like to request or discuss.
 
 ## License
